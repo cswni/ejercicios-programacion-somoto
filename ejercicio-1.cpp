@@ -3,34 +3,31 @@ Digite un numero, si el numero supera a 10, multiplique los 10 primeros numeros
 sino sumelos.
 */
 /*Agregamos iostream para usar el namespace std*/
-#include "iostream"
-/*Usar el namespace */
-using namespace std;
+#include <stdio.h>
 main (){
-	cout << "\n\tDigite un numero, si el numero supera a 10, \n\tmultiplique los 10 primeros numeros sino; sumelos"<<endl;
+	printf ("\n\tDigite un numero, si el numero supera a 10, \n\tmultiplique los 10 primeros numeros sino; sumelos");
 	/*Declaramos la variable que guarda el numero ingresa, suma y multiplicacion*/
-	int numero = 0, multiplicado = 1, sumado =0;
+	int numero = 0, multiplicado = 1, sumado  = 0;
 	/*Solicitar el valor*/
-	cout << "\n\t Ingrese un numero:";
-	cout << "\n\t:";
+	printf("\n\t Ingrese un numero:");
+	printf ("\n\t:");
 	/*Guardar el valor*/
-	cin >> numero;
+	scanf("%d",&numero);
 	/*Iniciar variable contadora a 1*/
 	int i = 1;
 	/*Validar si el numero es mayor que 10*/
 	if(numero > 10){
-		/*Recorrer con un ciclo for*/
-	
+		/*Recorrer con un ciclo while*/
 		while(i <= 10){
 			multiplicado = multiplicado * i;
 			i++;
 		}
-		cout << "\n\t El resultado de la multiplicacion es : "<< multiplicado;
+		printf ("\n\t El resultado de la multiplicacion es : %d", multiplicado);
 	}else{
 		while(i <=10){	
 			sumado = sumado + i;
 			i++;
 		}
-		cout << "\n\t El resultado de la suma es : "<<sumado<<endl;
+		printf ("\n\t El resultado de la suma es : %d",sumado);
 	}
 }
