@@ -18,13 +18,15 @@ main (){
 	if(numero > 10){
 		/*Recorrer con un ciclo while*/
 		while(i <= 10){
-			multiplicado = multiplicado * i;
+			multiplicado = numero * i;
+			printf ("\n\t %d * %d = %d",i,numero,multiplicado);
 			i++;
 		}
 		printf ("\n\t El resultado de la multiplicacion es : %d", multiplicado);
 	}else{
 		while(i <=10){	
-			sumado = sumado + i;
+				sumado = numero + i;
+			printf ("\n\t %d + %d = %d",i,numero,sumado);
 			i++;
 		}
 		printf ("\n\t El resultado de la suma es : %d",sumado);
