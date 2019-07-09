@@ -2,7 +2,6 @@
 Digite un numero, si el numero supera a 10, multiplique los 10 primeros numeros
 sino sumelos.
 */
-/*Agregamos iostream para usar el namespace std*/
 #include <stdio.h>
 main (){
 	printf ("\n\tDigite un numero, si el numero supera a 10, \n\tmultiplique los 10 primeros numeros sino; sumelos");

@@ -1,7 +1,6 @@
 /*
 Hacer un programa que sume los numeros pares del 1 hasta donde elija el usuario (ejemplo del 1 al 20 o del 1 al 40).
 */
-/*Agregamos iostream para usar el namespace std*/
 #include <stdio.h>
 main (){
 	printf("\n\tHacer un programa que sume los numeros pares del 1 hasta donde elija el usuario\n\t(ejemplo del 1 al 20 o del 1 al 40");

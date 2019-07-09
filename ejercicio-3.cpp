@@ -2,7 +2,6 @@
 Hacer un programa que diga cuantos numeros impares hay entre m y n elegidos por el usuario (Por eejmplo el numero de imparres que hay entre 
 32 y 38 es 3)
 */
-/*Agregamos iostream para usar el namespace std*/
 #include <stdio.h>
 main (){
 	printf ("\n\tHacer un programa que diga cuantos numeros impares hay entre m y n elegidos por el usuario \n\t(Por ejemplo el numero de imparres que hay entre 32 y 38 es 3");

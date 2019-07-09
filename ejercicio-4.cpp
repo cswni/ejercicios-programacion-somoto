@@ -3,7 +3,6 @@ Hacer un programa en donde el usuario introduzca un numero y nos de como resulta
 la suma de los multiplos de 4 que hay entre el 1 hasta ese numero. POr ejemplo si el 
 usuario escribe 10 la suma de los multiplos de 4 es 12.
 */
-/*Agregamos iostream para usar el namespace std*/
 #include <stdio.h>
 main (){
 	printf ( "\n\tHacer un programa en donde el usuario introduzca un numero y nos de como resultado");

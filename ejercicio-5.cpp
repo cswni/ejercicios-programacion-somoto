@@ -2,7 +2,6 @@
 Hacer un programa que el usuario elija cuantas notas ingresar y que imprima
 el tipo de aprendizaje obtenido por el estudiante.
 */
-/*Agregamos iostream para usar el namespace std*/
 #include <stdio.h>
 main (){
 	printf ( "\n\tHacer un programa que el usuario elija cuantas notas ingresar y que imprima");
