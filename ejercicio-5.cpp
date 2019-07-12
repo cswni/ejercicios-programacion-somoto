@@ -13,7 +13,7 @@ main (){
 	printf ( "\n\tApredizaje no alcanzado < 60 ");
 	printf ( "\n\t**************************");	
 	/*Declaramos las variables que guarda ambos numeros y los impares*/
-	int notas[20], numero, suma=0, promedio;	
+	int notas[20], numero, suma=0, promedio, valido=0;	
 	/*Solicitar el valor*/
 	printf ( "\n\t Cuantas notas desea ingresar:");
 	printf ( "\n\t:");
@@ -25,8 +25,16 @@ main (){
 		while(i <= numero){
 			printf ( "\n\t Nota %d",i);
 			printf ( "\n\t");
-			scanf("%d",&notas[i]);
-			i++;
+			/*Guardar el valor en una variable temporal*/
+			scanf("%d",&valido);
+			/*Verificar si es correcta */
+			if(valido >=0 && valido <=100){
+				notas[i] = valido;	
+				i++;
+			}else{
+				/*Si la nota es invalida. No se incrementa y se muestra el mensaje. Tampoco se guarda*/
+				printf ( "\n\t Nota invalida. Ingrese valores entre 0 y 100.");
+			}			
 		}
 		i = 1;
 		printf ( "\n\t Total %d",numero);
